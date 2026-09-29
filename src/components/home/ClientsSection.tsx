@@ -47,6 +47,11 @@ const clients = [
     id: 9,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFVo5icBHEYYsbM2U23NFBXGziz7cUMg8Obw&s",
     name: "San Roque"
+  },
+  {
+    id: 10,
+    image: "/CCL.png",
+    name: "Cámara de Comercio de Lima"
   }
 ]
 

@@ -1,5 +1,6 @@
 import SEO from "@/components/SEO"
 import HistorySection from "@/components/about/HistorySection"
+import MembershipSection from "@/components/about/MembershipSection"
 import ServiceAbout from "@/components/about/ServiceAbout"
 
 export default function About() {
@@ -17,6 +18,7 @@ export default function About() {
         ]}
       />
       <HistorySection />
+      <MembershipSection />
       <ServiceAbout />
     </main>
   )

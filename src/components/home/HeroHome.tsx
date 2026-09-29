@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
-import { ArrowRight, ArrowLeft } from "lucide-react"
+import { useEffect, useState } from "react";
+import { ArrowRight, ArrowLeft } from "lucide-react";
 
 const carouselImages = [
   {
@@ -9,25 +9,30 @@ const carouselImages = [
     width: 1200,
     height: 628,
     title: "Especialistas en Equipos \nAlimentarios",
-    description: "Proteja su inversión y evite interrupciones en su producción. Más de 15 años de experiencia en equipos de panadería, pastelería y horeca."
+    description:
+      "Proteja su inversión y evite interrupciones en su producción. Más de 15 años de experiencia en equipos de panadería, pastelería y horeca.",
   },
   {
     id: 2,
     base: null,
-    fallback: "https://bivelectrics.cl/wp-content/uploads/2020/11/mantenimiento.jpg",
+    fallback: "https://i.ibb.co/B5xDYRZJ/mantenimiento-industrial.jpg",
     width: 1200,
     height: 800,
+    position: "center 60%",
     title: "Mantenimiento \nIndustrial",
-    description: "Garantizamos la máxima disponibilidad de su planta mediante estrategias preventivas y correctivas integrales, minimizando los tiempos de inactividad de su maquinaria.",
+    description:
+      "Garantizamos la máxima disponibilidad de su planta mediante estrategias preventivas y correctivas integrales, minimizando los tiempos de inactividad de su maquinaria.",
   },
   {
     id: 3,
     base: null,
-    fallback: "https://images.unsplash.com/photo-1717386255773-a456c611dc4e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    fallback:
+      "https://images.unsplash.com/photo-1717386255773-a456c611dc4e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     width: 1470,
     height: 980,
     title: "Automatización \nIndustrial",
-    description: "Modernizamos sus líneas de producción con sistemas de control inteligente. Aumente la eficiencia, reduzca errores y optimice sus procesos operativos al máximo.",
+    description:
+      "Modernizamos sus líneas de producción con sistemas de control inteligente. Aumente la eficiencia, reduzca errores y optimice sus procesos operativos al máximo.",
   },
   {
     id: 4,
@@ -36,7 +41,8 @@ const carouselImages = [
     width: 1203,
     height: 941,
     title: "Soluciones \nMecatrónicas",
-    description: "Desarrollamos e integramos sistemas electroneumáticos y servocontrolados a medida, logrando una sinergia perfecta entre mecánica, electrónica y software.",
+    description:
+      "Desarrollamos e integramos sistemas electroneumáticos y servocontrolados a medida, logrando una sinergia perfecta entre mecánica, electrónica y software.",
   },
   {
     id: 5,
@@ -45,31 +51,31 @@ const carouselImages = [
     width: 1204,
     height: 1600,
     title: "Soluciones \nEléctricas",
-    description: "Diseño, montaje y puesta en marcha de tableros de automatización, control de motores con variadores de frecuencia y sistemas de fuerza para la industria.",
+    description:
+      "Diseño, montaje y puesta en marcha de tableros de automatización, control de motores con variadores de frecuencia y sistemas de fuerza para la industria.",
   },
-]
+];
 
 export default function HeroHome() {
-
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
     setCurrentIndex((prev) =>
-      prev === carouselImages.length - 1 ? 0 : prev + 1
-    )
+      prev === carouselImages.length - 1 ? 0 : prev + 1,
+    );
   };
 
   const handlePrev = () => {
     setCurrentIndex((prev) =>
-      prev === 0 ? carouselImages.length - 1 : prev - 1
-    )
-  }
+      prev === 0 ? carouselImages.length - 1 : prev - 1,
+    );
+  };
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setCurrentIndex((prev) =>
-        prev === carouselImages.length - 1 ? 0 : prev + 1
-      )
+        prev === carouselImages.length - 1 ? 0 : prev + 1,
+      );
     }, 5000);
     return () => clearTimeout(timer);
   }, [currentIndex]);
@@ -84,15 +90,16 @@ export default function HeroHome() {
         }}
       >
         {carouselImages.map((slide) => (
-          <div
-            key={slide.id}
-            className="relative w-full h-full shrink-0"
-          >
+          <div key={slide.id} className="relative w-full h-full shrink-0">
             {slide.base ? (
               <picture>
                 <source
                   type="image/webp"
-                  srcSet={slide.id === 1 ? `/images/${slide.base}-768.webp 768w, /images/${slide.base}-1200.webp 1200w` : `/images/${slide.base}-768.webp 768w, /images/${slide.base}-${slide.width}.webp ${slide.width}w`}
+                  srcSet={
+                    slide.id === 1
+                      ? `/images/${slide.base}-768.webp 768w, /images/${slide.base}-1200.webp 1200w`
+                      : `/images/${slide.base}-768.webp 768w, /images/${slide.base}-${slide.width}.webp ${slide.width}w`
+                  }
                   sizes="100vw"
                 />
                 <img
@@ -101,6 +108,7 @@ export default function HeroHome() {
                   width={slide.width}
                   height={slide.height}
                   className="absolute inset-0 w-full h-full object-cover"
+                  style={{ objectPosition: slide.position ?? "center" }}
                   loading={slide.id === 1 ? "eager" : "lazy"}
                   decoding="async"
                   fetchPriority={slide.id === 1 ? "high" : "auto"}
@@ -113,6 +121,7 @@ export default function HeroHome() {
                 width={slide.width}
                 height={slide.height}
                 className="absolute inset-0 w-full h-full object-cover"
+                style={{ objectPosition: slide.position ?? "center" }}
                 loading={slide.id === 1 ? "eager" : "lazy"}
                 decoding="async"
                 fetchPriority={slide.id === 1 ? "high" : "auto"}
@@ -120,7 +129,10 @@ export default function HeroHome() {
             )}
             <div className="absolute inset-0 bg-black/40"></div>
 
-            <div className="relative z-10 flex justify-center w-full h-full" data-aos="fade-up">
+            <div
+              className="relative z-10 flex justify-center w-full h-full"
+              data-aos="fade-up"
+            >
               <div className="flex flex-col max-w-7xl w-full px-4 md:px-0 justify-center">
                 <h1 className="text-white text-3xl md:text-5xl font-bold mb-4 drop-shadow-lg uppercase whitespace-pre-line">
                   {slide.title}
@@ -155,12 +167,13 @@ export default function HeroHome() {
           <button
             key={slide.id}
             onClick={() => setCurrentIndex(index)}
-            className={`h-2 w-2 rounded-full border border-white transition-all ${currentIndex === index ? "bg-white w-4" : "bg-white/40"
-              }`}
+            className={`h-2 w-2 rounded-full border border-white transition-all ${
+              currentIndex === index ? "bg-white w-4" : "bg-white/40"
+            }`}
             aria-label={`Ir al slide ${index + 1}`}
           />
         ))}
       </div>
     </section>
-  )
+  );
 }

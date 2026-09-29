@@ -164,6 +164,22 @@ export default function Fotter() {
             />
           </Link>
         </div>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 py-6 px-4">
+          <img
+            src="/CCL.png"
+            alt="Empresa Asociada a la Cámara de Comercio de Lima"
+            title="Empresa Asociada a la Cámara de Comercio de Lima"
+            width={120}
+            height={48}
+            loading="lazy"
+            decoding="async"
+            className="h-12 w-auto object-contain"
+          />
+          <div className="text-center md:text-left">
+            <p className="text-primary font-bold uppercase text-sm leading-tight">Empresa Asociada</p>
+            <p className="text-gray-600 text-sm leading-tight">Cámara de Comercio de Lima</p>
+          </div>
+        </div>
         <div className="flex flex-col items-center justify-center gap-4 text-sm">
           <p className="text-gray-600 px-4 text-center md:text-left">2026 ©Todos los derechos reservados. Desarrollado por <a href="https://www.groblestudio.com/" target="_blank" rel="noopener noreferrer" className="text-primary underline">Grobles Studio.</a></p>
 
