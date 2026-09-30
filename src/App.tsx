@@ -10,6 +10,8 @@ import ContactPage from "@/features/contact"
 import PrivacyPolicyPage from "@/features/privacy-policy"
 import TermsPage from "@/features/terms"
 import ComplaintsBookPage from "@/features/complaints"
+import SectorsPage from "@/features/sectors"
+import SectorDetailPage from "@/features/sectors/SectorDetailPage"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -33,6 +35,8 @@ function App() {
           <Route path="/nosotros" element={<AboutPage />} />
           <Route path="/servicios" element={<ServicesPage />} />
           <Route path="/servicios/:serviceSlug" element={<ServiceDetailPage />} />
+          <Route path="/sectores" element={<SectorsPage />} />
+          <Route path="/sectores/:sectorSlug" element={<SectorDetailPage />} />
           <Route path="/contacto" element={<ContactPage />} />
           <Route path="/politica-de-privacidad" element={<PrivacyPolicyPage />} />
           <Route path="/terminos-y-condiciones" element={<TermsPage />} />

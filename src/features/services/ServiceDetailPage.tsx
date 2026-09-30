@@ -7,6 +7,7 @@ import services, { getServiceBySlugParam } from "@/data/service"
 import { getServiceFeatureIcon } from "@/data/serviceFeatureIcons"
 import ContactSectionService from "@/components/services/ContactSectionService"
 import GalleryCarousel from "@/components/GalleryCarousel"
+import { getSectorsForService } from "@/data/sectors"
 
 export default function ServiceDetailPage() {
 
@@ -18,6 +19,7 @@ export default function ServiceDetailPage() {
   const otherServices = service
     ? services.filter((s) => s.id !== service.id).slice(0, 9)
     : []
+  const relatedSectors = service ? getSectorsForService(service.slug) : []
 
   useEffect(() => {
     if (!service) return
@@ -164,6 +166,20 @@ export default function ServiceDetailPage() {
             </div>
           </div>
         </section>
+        {relatedSectors.length > 0 ? (
+          <section className="max-w-7xl mx-auto px-4 pb-14 md:px-0" aria-labelledby="related-sectors-title">
+            <h2 id="related-sectors-title" className="text-xl font-bold uppercase text-primary">Sectores donde aplicamos este servicio</h2>
+            <ul className="mt-4 flex flex-wrap gap-3">
+              {relatedSectors.map((sector) => (
+                <li key={sector.slug}>
+                  <Link to={`/sectores/${sector.slug}`} className="inline-flex rounded-full border border-primary/30 px-4 py-2 text-sm font-semibold text-primary hover:bg-primary hover:text-white">
+                    {sector.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
         <div className="">
           <ContactSectionService />
         </div>

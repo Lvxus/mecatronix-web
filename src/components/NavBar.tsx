@@ -11,6 +11,7 @@ export default function NavBar() {
     { label: "Inicio", to: "/" },
     { label: "Sobre nosotros", to: "/nosotros" },
     { label: "Servicios", to: "/servicios" },
+    { label: "Sectores", to: "/sectores" },
     { label: "Contacto", to: "/contacto" }
   ];
 

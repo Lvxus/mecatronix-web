@@ -4,12 +4,15 @@ import { StaticRouter } from "react-router";
 import App from "./App";
 import services from "./data/service";
 import { SEODataContext, type SEOData } from "./components/SEO";
+import sectors from "./data/sectors";
 
 export const prerenderRoutes = [
   "/",
   "/nosotros",
   "/servicios",
   ...services.map((service) => `/servicios/${service.slug}`),
+  "/sectores",
+  ...sectors.map((sector) => `/sectores/${sector.slug}`),
   "/contacto",
   "/politica-de-privacidad",
   "/terminos-y-condiciones",

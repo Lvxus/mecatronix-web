@@ -147,4 +147,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://www.mecatronixperu.com/sectores</loc>
+  </url>
+  <url>
+    <loc>https://www.mecatronixperu.com/sectores/mantenimiento-industrial</loc>
+  </url>
+  <url>
+    <loc>https://www.mecatronixperu.com/sectores/mantenimiento-de-equipos-de-panaderia</loc>
+  </url>
+  <url>
+    <loc>https://www.mecatronixperu.com/sectores/mantenimiento-de-equipos-de-pasteleria</loc>
+  </url>
+  <url>
+    <loc>https://www.mecatronixperu.com/sectores/mantenimiento-para-gastronomia-y-hoteleria</loc>
+  </url>
 </urlset>
