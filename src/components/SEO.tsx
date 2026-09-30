@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { createContext, useContext, useEffect } from "react";
 
 type Breadcrumb = {
   name: string;
@@ -10,9 +10,12 @@ type SEOProps = {
   description: string;
   url?: string;
   image?: string;
-  type?: string;
+  type?: "website" | "article" | "Service";
   breadcrumbs?: Breadcrumb[];
 };
+
+export type SEOData = Required<Pick<SEOProps, "title" | "description" | "url" | "image" | "type">> & Pick<SEOProps, "breadcrumbs">;
+export const SEODataContext = createContext<((data: SEOData) => void) | null>(null);
 
 const defaultImage = "https://www.mecatronixperu.com/ogImageMecatronix.png";
 const siteName = "Mecatronix Perú";
@@ -92,14 +95,21 @@ export default function SEO({
   type = "website",
   breadcrumbs
 }: SEOProps) {
+  const registerSEO = useContext(SEODataContext);
+  const seoData: SEOData = { title, description, url, image, type, breadcrumbs };
+  registerSEO?.(seoData);
+
   useEffect(() => {
+    document.querySelector("#ld-BreadcrumbList")?.remove();
+    document.querySelector("#ld-Article")?.remove();
+    document.querySelector("#ld-Service")?.remove();
     document.title = title;
 
     setMetaTag("description", description);
     setMetaTag("keywords", "mantenimiento industrial, automatización, mecatrónica, servicios industriales");
     setMetaTag("robots", "index, follow");
 
-    setPropertyTag("og:type", type);
+    setPropertyTag("og:type", type === "Service" ? "website" : type);
     setPropertyTag("og:title", title);
     setPropertyTag("og:description", description);
     setPropertyTag("og:url", url);
@@ -130,7 +140,11 @@ export default function SEO({
     setPropertyTag("og:locale", "es_PE");
 
     injectJsonLd(organizationSchema);
-    injectJsonLd(localBusinessSchema);
+    if (url === defaultUrl || url === `${defaultUrl}/`) {
+      injectJsonLd(localBusinessSchema);
+    } else {
+      document.querySelector("#ld-LocalBusiness")?.remove();
+    }
 
     if (breadcrumbs && breadcrumbs.length > 0) {
       injectJsonLd({
@@ -148,8 +162,8 @@ export default function SEO({
     if (type === "article" || type === "Service") {
       injectJsonLd({
         "@context": "https://schema.org",
-        "@type": type === "article" ? "Article" : "Servicio",
-        "headline": title,
+        "@type": type === "article" ? "Article" : "Service",
+        ...(type === "article" ? { "headline": title } : { "name": title }),
         "description": description,
         "image": image,
         "url": url,
@@ -158,7 +172,6 @@ export default function SEO({
           "name": siteName,
           "url": defaultUrl,
         },
-        "datePublished": new Date().toISOString(),
       });
     }
   }, [title, description, url, image, type, breadcrumbs]);

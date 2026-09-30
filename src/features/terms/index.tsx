@@ -6,7 +6,7 @@ export default function TermsPage() {
       <SEO
         title="Términos y Condiciones | Mecatronix Perú"
         description="Conoce nuestros términos y condiciones de uso para el sitio web de Mecatronix Perú."
-        url="https://www.mecatronixperu.com/politica-de-privacidad"
+        url="https://www.mecatronixperu.com/terminos-y-condiciones"
         image="https://www.mecatronixperu.com/ogImageMecatronix.png"
         type="website"
         breadcrumbs={[

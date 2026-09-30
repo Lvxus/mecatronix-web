@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main>
       <SEO
-        title="Mecatronix Perú | Mantenimiento Industrial y Automatización"
-        description="Mecatronix Perú ofrece mantenimiento industrial, automatización y soluciones mecatrónicas para plantas y equipos."
-        url="https://www.mecatronixperu.com"
+        title="Mantenimiento de Equipos en Lima | Mecatronix Perú"
+        description="Mantenimiento de equipos industriales, de panadería, pastelería y gastronomía en Lima. Servicio preventivo, correctivo y soporte técnico de Mecatronix Perú."
+        url="https://www.mecatronixperu.com/"
         image="https://www.mecatronixperu.com/ogImageMecatronix.png"
         type="website"
         breadcrumbs={[{

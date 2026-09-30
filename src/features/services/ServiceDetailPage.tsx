@@ -1,5 +1,5 @@
 import SEO from "@/components/SEO"
-import { useEffect, useMemo } from "react"
+import { useEffect } from "react"
 import { Link, Navigate, useParams } from "react-router-dom"
 import AOS from "aos"
 import { CircleCheck } from "lucide-react"
@@ -15,22 +15,9 @@ export default function ServiceDetailPage() {
 
   const canonicalUrl = `https://www.mecatronixperu.com/servicios/${service?.slug}`
 
-  const otherServices = useMemo(() => {
-    if (!service) return []
-    const rest = services.filter((s) => s.id !== service.id)
-    const copy = [...rest]
-    for (let i = copy.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1))
-        ;[copy[i], copy[j]] = [copy[j], copy[i]]
-    }
-    return copy.slice(0, 9)
-  }, [service])
-
-  useEffect(() => {
-    if (service) {
-      document.title = `${service.title} - Mecatronix Peru`;
-    }
-  }, [service]);
+  const otherServices = service
+    ? services.filter((s) => s.id !== service.id).slice(0, 9)
+    : []
 
   useEffect(() => {
     if (!service) return
@@ -53,7 +40,7 @@ export default function ServiceDetailPage() {
           description={service.description ?? service.longDescription ?? "Servicio industrial especializado de Mecatronix Perú."}
           url={canonicalUrl}
           image={service.image}
-          type="service"
+          type="Service"
           breadcrumbs={[
             {name: "Inicio", url: "https://www.mecatronixperu.com/"},
             {name: "Servicios", url: "https://www.mecatronixperu.com/servicios"},
