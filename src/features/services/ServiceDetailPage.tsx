@@ -15,6 +15,9 @@ export default function ServiceDetailPage() {
   const service = serviceSlug ? getServiceBySlugParam(serviceSlug) : undefined;
 
   const canonicalUrl = `https://www.mecatronixperu.com/servicios/${service?.slug}`
+  const socialImage = service?.image.startsWith("/")
+    ? `https://www.mecatronixperu.com${service.image}`
+    : service?.image
 
   const otherServices = service
     ? services.filter((s) => s.id !== service.id).slice(0, 9)
@@ -41,7 +44,7 @@ export default function ServiceDetailPage() {
           title={`${service.title} - Mecatronix Perú`}
           description={service.description ?? service.longDescription ?? "Servicio industrial especializado de Mecatronix Perú."}
           url={canonicalUrl}
-          image={service.image}
+          image={socialImage}
           type="Service"
           breadcrumbs={[
             {name: "Inicio", url: "https://www.mecatronixperu.com/"},
@@ -104,6 +107,8 @@ export default function ServiceDetailPage() {
                     <img
                       src={service.image}
                       alt={service.title}
+                      width={service.imageWidth}
+                      height={service.imageHeight}
                       className="w-full max-h-[280px] rounded-3xl object-cover sm:max-h-[360px] md:max-h-[420px]"
                       data-aos="fade-up" data-aos-delay="300"
                     />

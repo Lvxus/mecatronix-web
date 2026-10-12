@@ -39,9 +39,9 @@ const services: Service[] = [
     ],
     title: "Mantenimiento Preventivo",
     slug: "mantenimiento-preventivo",
-    description: "Programas de revisión periódica diseñados para prolongar la vida útil de su maquinaria. Reducimos el riesgo de paradas imprevistas y optimizamos el rendimiento constante de su planta industrial.",
+    description: "Mantenimiento preventivo para equipos de panadería, pastelería, gastronomía y hotelería, además de otras industrias. Atención en Lima y provincias.",
     longDescription:
-      "Con el mantenimiento preventivo lo que queremos es evitar o mitigar las consecuencias de una posible falla del equipo, previniendo las incidencias antes de que estas ocurran. Las tareas de mantenimiento preventivo incluyen acciones como cambiar piezas consumibles en desgaste, lubricación, ajustes, etc. El mantenimiento preventivo debe evitar los fallos en el equipo antes de que estos ocurran.",
+      "El mantenimiento preventivo ayuda a reducir fallas inesperadas y a conservar las máquinas en condiciones adecuadas de operación. Mecatronix Perú prepara revisiones según el equipo, su uso y las necesidades de cada empresa, tanto para clientes de panadería y pastelería como de gastronomía, hotelería y otros sectores industriales.\n\nEl trabajo puede incluir inspecciones programadas, lubricación, ajustes y revisión o cambio de piezas sujetas a desgaste. La frecuencia y las tareas se definen según la evaluación del equipo y las condiciones de trabajo. La atención prioriza Lima y provincias; los proyectos fuera del país se evalúan según su alcance.",
     features: [
       {
         icon: "calendarClock",
@@ -110,9 +110,9 @@ const services: Service[] = [
     ],
     title: "Mantenimiento Correctivo",
     slug: "mantenimiento-correctivo",
-    description: "Respuesta técnica rápida y especializada para la reparación de averías súbitas. Solucionamos fallas mecánicas, eléctricas y electrónicas para restaurar su línea de producción en el menor tiempo posible.",
+    description: "Reparación y mantenimiento correctivo para máquinas de panadería, pastelería, gastronomía y hotelería. Atención en Lima y provincias.",
     longDescription:
-      "Con el mantenimiento correctivo lo que queremos es reparar las fallas que ya han ocurrido en los equipos, con el objetivo de restablecer su funcionamiento normal lo antes posible. Este tipo de mantenimiento se realiza en respuesta a una falla o avería que ha interrumpido la operación del equipo. El mantenimiento correctivo se caracteriza por ser reactiva, es decir, se realiza después de que el equipo ha fallado o ha presentado un problema.",
+      "El mantenimiento correctivo atiende máquinas que presentan una falla o dejaron de funcionar correctamente. Mecatronix Perú evalúa el problema y determina las acciones necesarias para recuperar la operación, según el estado del equipo y el alcance del trabajo. Atiende solicitudes de panaderías, pastelerías, negocios gastronómicos, hoteles y otras industrias.\n\nLa reparación puede involucrar componentes mecánicos, eléctricos o electrónicos. Cuando corresponde, también se revisan elementos de automatización y control. El diagnóstico permite definir la intervención, los repuestos requeridos y una cotización antes de iniciar el trabajo. La cobertura prioritaria es Lima y provincias; las solicitudes internacionales se revisan caso por caso.",
     features: [
       {
         icon: "hammer",
@@ -232,9 +232,8 @@ const services: Service[] = [
   },
   {
     id: 7,
-    image: "https://gpooasis.com/wp-content/uploads/2020/11/Tipos-de-sistema-de-ventilacion.jpg",
+    image: "https://i.ibb.co/4nTb29VH/ventilacion4.jpg",
     gallery: [
-      "https://gpooasis.com/wp-content/uploads/2020/11/Tipos-de-sistema-de-ventilacion.jpg",
       "https://i.ibb.co/4nTb29VH/ventilacion4.jpg",
       "https://i.ibb.co/5W2PcfrX/ventilacion3.jpg",
       "https://i.ibb.co/4ggp220z/ventilacion2.jpg",
@@ -327,7 +326,9 @@ const services: Service[] = [
   },
   {
     id: 10,
-    image: "https://aggity.com/wp-content/uploads/2025/11/balanceo-de-lineas.webp",
+    image: "/images/other/intersadoservicios-700.webp",
+    imageWidth: 700,
+    imageHeight: 473,
     gallery: [
 
     ],
@@ -494,4 +495,3 @@ export function getServicesForHome(): Service[] {
 }
 
 export default services
-
