@@ -71,9 +71,9 @@ const services: Service[] = [
     ],
     title: "Mantenimiento Predictivo",
     slug: "mantenimiento-predictivo",
-    description: "Monitoreo avanzado y diagnóstico en tiempo real de sus equipos. Detectamos anomalías, desgastes y vibraciones antes de que se conviertan en fallas críticas, asegurando la máxima disponibilidad operativa.",
+    description: "Mantenimiento predictivo para equipos industriales en Lima y provincias. Monitoreo de vibración, temperatura y parámetros eléctricos para detectar anomalías.",
     longDescription:
-      "Con el mantenimiento predictivo lo que queremos es anticipar las fallas antes de que ocurran, utilizando datos en tiempo real para tomar decisiones de mantenimiento en el momento adecuado. Este enfoque se basa en el análisis de señales de salud del equipo, como vibraciones, temperaturas, presiones y otros parámetros, para identificar anomalías que indiquen un deterioro progresivo.",
+      "El mantenimiento predictivo analiza señales de condición —como vibración, temperatura, presión y parámetros eléctricos— para identificar cambios que puedan indicar desgaste o una falla en desarrollo. La información ayuda a planificar una intervención según el estado observado del equipo. El alcance de las mediciones y el plan de seguimiento se determinan de acuerdo con cada activo y proyecto. Atención en Lima y provincias.",
     features: [
       {
         icon: "activity",
@@ -149,9 +149,9 @@ const services: Service[] = [
     title: "Auxilio técnico y atención de emergencias",
     slug: "auxilio-tecnico-y-atencion-de-emergencias",
     description:
-      "Respuesta inmediata ante fallas imprevistas para restablecer la operatividad de tus equipos industriales en el menor tiempo posible.",
+      "Auxilio técnico y reparación de equipos industriales ante fallas imprevistas. Atención en Lima y provincias, previa coordinación y según disponibilidad.",
     longDescription:
-      "Nuestro servicio de auxilio técnico está diseñado para actuar con rapidez frente a emergencias. Sabemos que el tiempo de inactividad cuesta dinero, por lo que acudimos de manera inmediata ante cualquier avería o falla crítica, diagnosticando y solucionando el problema de forma correctiva para que su planta retome su funcionamiento normal y minimice las pérdidas de producción.",
+      "El auxilio técnico atiende solicitudes por fallas imprevistas en máquinas y equipos de operación. Mecatronix coordina la evaluación según la ubicación, el tipo de equipo, la falla reportada y la disponibilidad del servicio. El diagnóstico permite definir si es posible realizar la reparación en campo o si se requiere una intervención adicional. Se atienden empresas de distintos rubros en Lima y provincias.",
     features: [
       {
         icon: "phone",
@@ -179,9 +179,9 @@ const services: Service[] = [
     title: "Venta e instalación de repuestos mecánicos, eléctricos y electrónicos",
     slug: "venta-e-instalacion-de-repuestos-mecanicos-electricos-y-electronicos",
     description:
-      "Suministro e instalación rápida de repuestos mecánicos, eléctricos y electrónicos originales para garantizar la compatibilidad y durabilidad de sus equipos.",
+      "Identificación, suministro e instalación de repuestos mecánicos, eléctricos y electrónicos para equipos industriales en Lima y provincias.",
     longDescription:
-      "Contamos con un amplio catálogo de componentes de alta calidad para diversas maquinarias de la industria. No solo le proveemos la pieza exacta que necesita, sino que nuestro equipo técnico se encarga de la instalación precisa y calibración. Esto asegura una integración perfecta, extiende la vida útil de su maquinaria y previene fallas recurrentes por desgaste.",
+      "Mecatronix apoya en la identificación de repuestos mecánicos, eléctricos y electrónicos según el equipo y la necesidad reportada. Cuando el alcance lo requiere, también coordina la instalación y las comprobaciones correspondientes. La disponibilidad, compatibilidad y cotización se revisan para cada solicitud antes de confirmar el suministro.",
     features: [
       {
         icon: "package",
@@ -209,7 +209,7 @@ const services: Service[] = [
     title: "Instalación, montaje y puesta en marcha de equipos industriales",
     slug: "instalacion-montaje-y-puesta-en-marcha-de-equipos-industriales",
     description:
-      "Integración segura y eficiente de nueva maquinaria a su línea de producción, desde el ensamblaje técnico hasta las pruebas de funcionamiento finales.",
+      "Instalación, montaje y puesta en marcha de equipos industriales para empresas en Lima y provincias. Servicio sujeto a evaluación técnica.",
     longDescription:
       "Aseguramos el éxito de su inversión desde el primer día. Nos encargamos del montaje riguroso y la instalación de sus nuevos equipos industriales siguiendo los más altos estándares y normativas del fabricante. Realizamos las pruebas en vacío y con carga (puesta en marcha) para garantizar que la maquinaria opere en sus parámetros óptimos de seguridad y eficiencia antes de iniciar su producción.",
     features: [
@@ -242,9 +242,9 @@ const services: Service[] = [
     title: "Instalación de sistemas de ventilación y extracción de aire",
     slug: "instalacion-de-sistemas-de-ventilacion-y-extraccion-de-aire",
     description:
-      "Soluciones de climatización y purificación de aire industrial para mantener un entorno de trabajo seguro y proteger la vida útil de sus máquinas.",
+      "Diseño e instalación de ventilación y extracción de aire para plantas y negocios gastronómicos en Lima y provincias, según evaluación.",
     longDescription:
-      "Diseñamos e instalamos sistemas robustos de ventilación y extracción adaptados a las exigencias térmicas y ambientales de su planta. Estos sistemas son vitales para disipar el calor generado por los equipos, extraer grasas, polvo o gases, mejorando la calidad del aire, cumpliendo con las normativas de sanidad y evitando el sobrecalentamiento de su maquinaria.",
+      "Diseñamos e instalamos sistemas de ventilación y extracción de aire de acuerdo con las condiciones del local y las necesidades del proceso. En plantas y negocios gastronómicos, estos sistemas pueden contribuir a evacuar calor, polvo, humo o grasas y a mejorar la renovación del aire. El diseño, los componentes y el alcance se determinan tras revisar las condiciones de cada espacio.",
     features: [
       {
         icon: "fan",
@@ -273,7 +273,7 @@ const services: Service[] = [
     title: "Capacitación técnica industrial",
     slug: "capacitacion-tecnica-industrial",
     description:
-      "Formación especializada para sus operarios en el manejo correcto, limpieza y cuidado de los equipos para maximizar su rendimiento.",
+      "Capacitación técnica para la operación y el cuidado de equipos industriales. Programas para personal en Lima y provincias, según cada necesidad.",
     longDescription:
       "Empoderamos a su personal mediante programas de formación técnica enfocados en la correcta operación y el mantenimiento autónomo de la maquinaria. Un equipo capacitado es la mejor estrategia preventiva: maximiza el rendimiento productivo, reduce errores humanos y previene averías costosas causadas por un manejo inadecuado de la tecnología industrial.",
     features: [
@@ -303,7 +303,7 @@ const services: Service[] = [
     title: "Diseño e Implementación de proyectos de automatización",
     slug: "diseno-e-implementacion-de-proyectos-de-automatizacion",
     description:
-      "Modernización de procesos industriales mediante tecnología de control y automatización para maximizar la eficiencia y reducir costos operativos.",
+      "Automatización industrial con PLC, HMI, sensores y neumática. Diseño e integración de control para procesos en Lima y provincias.",
     longDescription:
       "Transformamos su industria integrando tecnologías avanzadas (PLC, HMI, sensores, neumática) que optimizan y controlan sus procesos de manera automática. Estudiamos su línea de producción para diseñar soluciones a la medida que reducen la intervención manual, minimizan los tiempos muertos, disminuyen el margen de error y aumentan significativamente la rentabilidad y estandarización de su producto.",
     features: [
@@ -335,7 +335,7 @@ const services: Service[] = [
     title: "Modificaciones en línea de producción",
     slug: "modificaciones-en-linea-de-produccion",
     description:
-      "Reingeniería y adaptación de sus líneas de procesos actuales para aumentar la capacidad, flexibilidad y velocidad productiva.",
+      "Modificación de líneas de producción e integración de máquinas para empresas industriales en Lima y provincias, según evaluación.",
     longDescription:
       "Adaptamos sus instalaciones actuales a las nuevas y crecientes demandas del mercado. Ya sea para integrar nuevas máquinas, optimizar el flujo de trabajo o escalar el volumen de producción, realizamos modificaciones estructurales, mecánicas y eléctricas en su línea con la mínima interrupción posible, garantizando una transición fluida hacia una operación superior.",
     features: [
@@ -365,7 +365,7 @@ const services: Service[] = [
     title: "Instalación de camaras de conservación y congelación",
     slug: "instalacion-de-camaras-de-conservacion-y-congelacion",
     description:
-      "Proyectos de refrigeración industrial a medida para garantizar la cadena de frío, frescura e inocuidad de sus productos.",
+      "Instalación de cámaras de conservación y congelación para alimentos en panaderías, pastelerías y gastronomía. Atención en Lima y provincias.",
     longDescription:
       "Somos especialistas en el cálculo térmico, diseño e instalación de cámaras frigoríficas y túneles de congelación de alta eficiencia energética. Utilizamos paneles termoaislantes y equipos de refrigeración de última generación para asegurar temperaturas precisas y estables, garantizando la perfecta conservación de alimentos, masas, insumos o productos termosensibles.",
     features: [
@@ -395,7 +395,7 @@ const services: Service[] = [
     title: "Diseño e instalación de tableros eléctricos industriales",
     slug: "diseno-e-instalacion-de-tableros-electricos-industriales",
     description:
-      "Soluciones de control y distribución de energía seguras, diseñadas bajo estrictas normativas eléctricas para proteger su inversión.",
+      "Diseño e instalación de tableros eléctricos industriales de fuerza, control y automatización en Lima y provincias.",
     longDescription:
       "Fabricamos e instalamos tableros eléctricos de fuerza, control y automatización adaptados a la carga y exigencia energética de su planta. Nuestros diseños priorizan la seguridad industrial, la facilidad de mantenimiento y la protección de sus motores y equipos contra sobrecargas, caídas de tensión o cortocircuitos, asegurando un suministro eléctrico continuo y confiable.",
     features: [
@@ -425,7 +425,7 @@ const services: Service[] = [
     title: "Mantenimiento de bombas de agua",
     slug: "mantenimiento-de-bombas-de-agua",
     description:
-      "Servicio preventivo y correctivo de sistemas de bombeo industrial para asegurar un flujo constante y una presión óptima en sus procesos.",
+      "Mantenimiento y reparación de bombas de agua para procesos industriales en Lima y provincias. Diagnóstico según cada sistema.",
     longDescription:
       "Realizamos el diagnóstico, reparación y mantenimiento especializado de bombas de agua (centrífugas, periféricas, sumergibles) y sistemas hidroneumáticos. Inspeccionamos sellos mecánicos, rodamientos, alineación de ejes y consumo eléctrico para prevenir fugas, pérdida de presión o fallas inesperadas, garantizando el suministro continuo de fluidos vitales para su planta.",
     features: [
@@ -455,7 +455,7 @@ const services: Service[] = [
     title: "Mantenimiento de grupos electrógenos",
     slug: "mantenimiento-de-grupos-electrogenos",
     description:
-      "Cuidado experto de sus generadores eléctricos para garantizar que la energía de respaldo nunca falle ante un corte de suministro.",
+      "Mantenimiento de grupos electrógenos para empresas en Lima y provincias. Revisión de componentes y pruebas según el equipo.",
     longDescription:
       "El respaldo energético es crítico para la continuidad de la industria. Nuestro servicio incluye la revisión integral de motores diésel/gas, cambio de filtros, análisis de fluidos, revisión de alternadores y pruebas del panel de transferencia automática (tablero de transferencia). Con este mantenimiento preventivo, garantizamos que sus generadores arranquen de inmediato, protegiendo su producción ante cualquier apagón.",
     features: [
