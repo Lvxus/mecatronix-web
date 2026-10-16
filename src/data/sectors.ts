@@ -127,13 +127,14 @@ const sectors: Sector[] = [
     name: "Gastronomía y hotelería",
     title: "Mantenimiento de equipos para gastronomía y hotelería",
     metaTitle: "Mantenimiento para Gastronomía y Hotelería | Mecatronix Perú",
-    metaDescription: "Mantenimiento y reparación de máquinas para empresas de gastronomía y hotelería en Lima y provincias. Atención técnica según evaluación.",
+    metaDescription: "Mantenimiento y reparación de equipos de gastronomía y hotelería en Lima y provincias. Reparación de lavavajillas y hornos Rational, previa evaluación.",
     intro: "Gastronomía y hotelería están entre los principales rubros atendidos por Mecatronix Perú. El servicio se orienta al mantenimiento y reparación de las máquinas que cada negocio utiliza, previa evaluación de su requerimiento.",
     sections: [
       {
         heading: "Soporte para negocios de gastronomía y hotelería",
         paragraphs: [
           "Las necesidades pueden variar según la operación y el equipo. Mecatronix evalúa cada solicitud para definir si corresponde mantenimiento preventivo, reparación correctiva, atención de una falla o una solución mecánica, electrónica o de automatización.",
+          "En gastronomía, también se atiende la reparación de lavavajillas y el mantenimiento y reparación de hornos Rational. El alcance se confirma según el modelo, la falla y las condiciones del servicio.",
           "El tipo de equipo, el problema observado y las condiciones del lugar permiten delimitar el alcance del trabajo y preparar una cotización adecuada.",
         ],
       },

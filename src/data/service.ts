@@ -39,24 +39,24 @@ const services: Service[] = [
     ],
     title: "Mantenimiento Preventivo",
     slug: "mantenimiento-preventivo",
-    description: "Mantenimiento preventivo para equipos de panadería, pastelería, gastronomía y hotelería, además de otras industrias. Atención en Lima y provincias.",
+    description: "Mantenimiento preventivo de equipos de panadería, pastelería, gastronomía y hotelería, además de otras industrias. Lima y provincias.",
     longDescription:
-      "El mantenimiento preventivo ayuda a reducir fallas inesperadas y a conservar las máquinas en condiciones adecuadas de operación. Mecatronix Perú prepara revisiones según el equipo, su uso y las necesidades de cada empresa, tanto para clientes de panadería y pastelería como de gastronomía, hotelería y otros sectores industriales.\n\nEl trabajo puede incluir inspecciones programadas, lubricación, ajustes y revisión o cambio de piezas sujetas a desgaste. La frecuencia y las tareas se definen según la evaluación del equipo y las condiciones de trabajo. La atención prioriza Lima y provincias; los proyectos fuera del país se evalúan según su alcance.",
+      "El mantenimiento preventivo permite revisar una máquina antes de que una falla interrumpa la producción. Mecatronix Perú atiende solicitudes de panaderías, pastelerías, restaurantes, hoteles y empresas de otros sectores industriales en Lima y provincias.\n\nLa revisión se define según el tipo de equipo, su uso y las condiciones del lugar. Puede incluir inspección de componentes, limpieza técnica, lubricación, ajustes y evaluación de piezas con desgaste. Con esos hallazgos se determina qué tareas conviene realizar y si se requiere programar revisiones posteriores. En gastronomía se puede solicitar mantenimiento de hornos Rational; el alcance se confirma según el modelo y su condición.",
     features: [
       {
         icon: "calendarClock",
-        title: "Planes por calendario",
-        description: "Rutinas definidas según horas de operación o intervalos de tiempo para no dejar pasar revisiones críticas.",
+        title: "Revisión según el equipo",
+        description: "Las tareas y su frecuencia se proponen considerando el tipo de máquina, su uso y las condiciones de operación.",
       },
       {
         icon: "clipboardList",
-        title: "Checklist documentado",
-        description: "Listas de verificación por equipo y criticidad, con registro para trazabilidad y auditorías.",
+        title: "Tareas de mantenimiento",
+        description: "La intervención puede considerar inspección, lubricación, ajustes y revisión de componentes sujetos a desgaste.",
       },
       {
         icon: "shield",
         title: "Menos paradas imprevistas",
-        description: "Enfoque en piezas de desgaste, lubricación y ajustes que reducen fallas sorpresivas en planta.",
+        description: "Detectar señales de desgaste permite evaluar acciones antes de que el equipo presente una parada imprevista.",
       },
     ],
   },
@@ -71,24 +71,24 @@ const services: Service[] = [
     ],
     title: "Mantenimiento Predictivo",
     slug: "mantenimiento-predictivo",
-    description: "Mantenimiento predictivo para equipos industriales en Lima y provincias. Monitoreo de vibración, temperatura y parámetros eléctricos para detectar anomalías.",
+    description: "Evaluación predictiva de equipos industriales mediante mediciones de condición, según el activo y el alcance del proyecto.",
     longDescription:
-      "El mantenimiento predictivo analiza señales de condición —como vibración, temperatura, presión y parámetros eléctricos— para identificar cambios que puedan indicar desgaste o una falla en desarrollo. La información ayuda a planificar una intervención según el estado observado del equipo. El alcance de las mediciones y el plan de seguimiento se determinan de acuerdo con cada activo y proyecto. Atención en Lima y provincias.",
+      "El mantenimiento predictivo busca detectar cambios en la condición de una máquina para planificar una intervención antes de que una anomalía avance. Mecatronix Perú evalúa cada solicitud de acuerdo con el equipo, el proceso y la información disponible.\n\nSegún el activo y el alcance acordado, la evaluación puede considerar variables como vibración, temperatura, presión o parámetros eléctricos. Los puntos de medición y la frecuencia de seguimiento se definen para cada proyecto; no todas las técnicas aplican a todos los equipos. Atención en Lima y provincias, previa coordinación.",
     features: [
       {
         icon: "activity",
         title: "Monitoreo de condición",
-        description: "Seguimiento de vibraciones, temperaturas y parámetros eléctricos para detectar tendencias anómalas.",
+        description: "Las variables a medir se seleccionan según el tipo de máquina y las condiciones de operación.",
       },
       {
         icon: "gauge",
         title: "Diagnóstico basado en datos",
-        description: "Interpretación de mediciones para anticipar intervenciones antes de que el equipo falle en servicio.",
+        description: "Los resultados permiten valorar cambios de condición y definir si se requiere una revisión técnica.",
       },
       {
         icon: "calendarClock",
         title: "Intervención oportuna",
-        description: "Ventanas de mantenimiento alineadas al estado real del activo, optimizando recursos y paradas.",
+        description: "El seguimiento acordado ayuda a programar una intervención en función de los hallazgos.",
       },
     ],
   },
@@ -110,24 +110,24 @@ const services: Service[] = [
     ],
     title: "Mantenimiento Correctivo",
     slug: "mantenimiento-correctivo",
-    description: "Reparación y mantenimiento correctivo para máquinas de panadería, pastelería, gastronomía y hotelería. Atención en Lima y provincias.",
+    description: "Reparación de máquinas de panadería, pastelería y gastronomía, incluidos lavavajillas y hornos Rational. Lima y provincias.",
     longDescription:
-      "El mantenimiento correctivo atiende máquinas que presentan una falla o dejaron de funcionar correctamente. Mecatronix Perú evalúa el problema y determina las acciones necesarias para recuperar la operación, según el estado del equipo y el alcance del trabajo. Atiende solicitudes de panaderías, pastelerías, negocios gastronómicos, hoteles y otras industrias.\n\nLa reparación puede involucrar componentes mecánicos, eléctricos o electrónicos. Cuando corresponde, también se revisan elementos de automatización y control. El diagnóstico permite definir la intervención, los repuestos requeridos y una cotización antes de iniciar el trabajo. La cobertura prioritaria es Lima y provincias; las solicitudes internacionales se revisan caso por caso.",
+      "El mantenimiento correctivo atiende equipos que presentan una falla, trabajan de forma irregular o dejaron de operar. La evaluación empieza con la información disponible sobre la máquina y el problema; luego se determina si la revisión puede realizarse en campo y qué intervención requiere el equipo.\n\nMecatronix Perú repara maquinaria de panadería, pastelería, gastronomía y otras industrias. En gastronomía, el servicio incluye reparación de lavavajillas y mantenimiento y reparación de hornos Rational, sujeto a revisión del modelo y la falla. Según el caso, el trabajo puede involucrar componentes mecánicos, eléctricos, electrónicos o de control. El alcance, los repuestos y la cotización se coordinan antes de ejecutar la reparación. Atención prioritaria en Lima y provincias.",
     features: [
       {
         icon: "hammer",
-        title: "Reparación en campo",
-        description: "Desmontaje, sustitución de componentes y pruebas funcionales para restablecer la operación segura.",
+        title: "Intervención según la falla",
+        description: "La reparación puede realizarse en las instalaciones del cliente cuando el equipo y el alcance lo permiten.",
       },
       {
         icon: "search",
-        title: "Causa raíz",
-        description: "Análisis de la falla para evitar recurrencias y proponer mejoras en operación o mantenimiento.",
+        title: "Diagnóstico técnico",
+        description: "Se revisan las causas posibles y el estado del equipo antes de definir las acciones correctivas.",
       },
       {
         icon: "clipboardList",
-        title: "Informe técnico",
-        description: "Registro de hallazgos, repuestos utilizados y recomendaciones posteriores al cliente.",
+        title: "Alcance y repuestos",
+        description: "La evaluación permite precisar los componentes requeridos y cotizar el trabajo antes de iniciar.",
       },
     ],
   },
@@ -149,24 +149,24 @@ const services: Service[] = [
     title: "Auxilio técnico y atención de emergencias",
     slug: "auxilio-tecnico-y-atencion-de-emergencias",
     description:
-      "Auxilio técnico y reparación de equipos industriales ante fallas imprevistas. Atención en Lima y provincias, previa coordinación y según disponibilidad.",
+      "Auxilio técnico para fallas imprevistas en máquinas de panadería, gastronomía y otras industrias. Lima y provincias, previa coordinación.",
     longDescription:
-      "El auxilio técnico atiende solicitudes por fallas imprevistas en máquinas y equipos de operación. Mecatronix coordina la evaluación según la ubicación, el tipo de equipo, la falla reportada y la disponibilidad del servicio. El diagnóstico permite definir si es posible realizar la reparación en campo o si se requiere una intervención adicional. Se atienden empresas de distintos rubros en Lima y provincias.",
+      "Cuando una máquina se detiene o presenta una falla inesperada, el auxilio técnico permite coordinar una evaluación inicial. Para orientar la atención, se solicita información del equipo, los síntomas observados, la ubicación y, si es posible, fotografías o videos.\n\nMecatronix Perú revisa el requerimiento y confirma la disponibilidad y el tipo de atención posible. Según el caso, el técnico puede evaluar el equipo en las instalaciones del cliente, realizar una reparación en campo o recomendar una intervención adicional. La atención se coordina para negocios de panadería, pastelería, gastronomía, hotelería y otras industrias en Lima y provincias; no se ofrece un tiempo de llegada fijo sin confirmar previamente la ubicación y disponibilidad.",
     features: [
       {
         icon: "phone",
-        title: "Atención prioritaria",
-        description: "Canal de contacto para paradas críticas con priorización según impacto en producción.",
+        title: "Evaluación inicial",
+        description: "Compartir el equipo, la falla y la ubicación ayuda a determinar el tipo de atención requerida.",
       },
       {
         icon: "truck",
-        title: "Desplazamiento rápido",
-        description: "Coordinación logística para acortar tiempos de llegada del técnico a su planta.",
+        title: "Atención coordinada",
+        description: "La visita se programa de acuerdo con la ubicación, el requerimiento y la disponibilidad técnica.",
       },
       {
         icon: "alertTriangle",
-        title: "Protocolos de seguridad",
-        description: "Trabajo bajo procedimientos seguros en equipos energizados o en condiciones de riesgo.",
+        title: "Alcance de la intervención",
+        description: "La evaluación define si la reparación es viable en campo o requiere trabajo adicional.",
       },
     ],
   },
@@ -179,24 +179,24 @@ const services: Service[] = [
     title: "Venta e instalación de repuestos mecánicos, eléctricos y electrónicos",
     slug: "venta-e-instalacion-de-repuestos-mecanicos-electricos-y-electronicos",
     description:
-      "Identificación, suministro e instalación de repuestos mecánicos, eléctricos y electrónicos para equipos industriales en Lima y provincias.",
+      "Identificación, cotización e instalación de repuestos mecánicos, eléctricos y electrónicos para maquinaria industrial.",
     longDescription:
-      "Mecatronix apoya en la identificación de repuestos mecánicos, eléctricos y electrónicos según el equipo y la necesidad reportada. Cuando el alcance lo requiere, también coordina la instalación y las comprobaciones correspondientes. La disponibilidad, compatibilidad y cotización se revisan para cada solicitud antes de confirmar el suministro.",
+      "La selección de un repuesto requiere identificar el equipo y el componente que se necesita reemplazar. Mecatronix Perú puede apoyar con referencias, fotografías de la pieza o datos de placa para revisar alternativas mecánicas, eléctricas y electrónicas.\n\nAntes de confirmar el suministro se valida, según la información disponible, la compatibilidad, la disponibilidad y el costo. Si el cliente lo requiere y el alcance lo permite, también se coordina la instalación y la comprobación de funcionamiento. El servicio se cotiza para cada solicitud y se atiende principalmente en Lima y provincias.",
     features: [
       {
         icon: "package",
-        title: "Suministro de repuestos",
-        description: "Identificación de referencias originales o equivalentes según fabricante y aplicación.",
+        title: "Identificación del componente",
+        description: "La placa del equipo, la referencia de la pieza o fotografías ayudan a buscar una opción compatible.",
       },
       {
         icon: "wrench",
-        title: "Instalación calificada",
-        description: "Montaje, torqueado y comisionado de componentes mecánicos, eléctricos y electrónicos.",
+        title: "Instalación coordinada",
+        description: "Cuando se solicita, se cotiza también el montaje y la comprobación del componente instalado.",
       },
       {
         icon: "clipboardList",
-        title: "Trazabilidad",
-        description: "Registro de series y lotes instalados para garantías y futuras auditorías de mantenimiento.",
+        title: "Validación previa",
+        description: "Compatibilidad, existencia y precio se confirman antes de cerrar el suministro.",
       },
     ],
   },
@@ -209,24 +209,24 @@ const services: Service[] = [
     title: "Instalación, montaje y puesta en marcha de equipos industriales",
     slug: "instalacion-montaje-y-puesta-en-marcha-de-equipos-industriales",
     description:
-      "Instalación, montaje y puesta en marcha de equipos industriales para empresas en Lima y provincias. Servicio sujeto a evaluación técnica.",
+      "Instalación y montaje de equipos industriales, con puesta en marcha según el proyecto y las condiciones del sitio.",
     longDescription:
-      "Aseguramos el éxito de su inversión desde el primer día. Nos encargamos del montaje riguroso y la instalación de sus nuevos equipos industriales siguiendo los más altos estándares y normativas del fabricante. Realizamos las pruebas en vacío y con carga (puesta en marcha) para garantizar que la maquinaria opere en sus parámetros óptimos de seguridad y eficiencia antes de iniciar su producción.",
+      "La instalación de un equipo industrial requiere considerar sus dimensiones, ubicación, conexiones y condiciones de operación. Mecatronix Perú coordina el montaje de acuerdo con el equipo y el alcance definido para el proyecto.\n\nEl trabajo puede incluir ubicación y nivelación, montaje, conexiones y pruebas iniciales de funcionamiento cuando forman parte del servicio contratado. Antes de iniciar se revisan las condiciones del espacio y los requerimientos de la máquina; la puesta en marcha y las pruebas con carga se confirman según el tipo de equipo y el proyecto. Atención en Lima y provincias.",
     features: [
       {
         icon: "factory",
         title: "Montaje en sitio",
-        description: "Alineación, nivelación, anclaje y conexión mecánica según manual y normativa aplicable.",
+        description: "El montaje se define considerando la ubicación, las características del equipo y las condiciones del espacio.",
       },
       {
         icon: "settings",
         title: "Puesta en marcha",
-        description: "Parametrización, pruebas en vacío y en carga hasta validar desempeño nominal.",
+        description: "Las pruebas de funcionamiento y la puesta en marcha se incluyen según el alcance acordado.",
       },
       {
         icon: "clipboardList",
-        title: "Entrega documentada",
-        description: "Checklist de arranque, registros de prueba y capacitación básica a operadores.",
+        title: "Coordinación del proyecto",
+        description: "Se revisan previamente las conexiones y condiciones necesarias para instalar el equipo.",
       },
     ],
   },
@@ -242,24 +242,24 @@ const services: Service[] = [
     title: "Instalación de sistemas de ventilación y extracción de aire",
     slug: "instalacion-de-sistemas-de-ventilacion-y-extraccion-de-aire",
     description:
-      "Diseño e instalación de ventilación y extracción de aire para plantas y negocios gastronómicos en Lima y provincias, según evaluación.",
+      "Diseño e instalación de ventilación y extracción de aire para plantas y locales gastronómicos, previa evaluación.",
     longDescription:
-      "Diseñamos e instalamos sistemas de ventilación y extracción de aire de acuerdo con las condiciones del local y las necesidades del proceso. En plantas y negocios gastronómicos, estos sistemas pueden contribuir a evacuar calor, polvo, humo o grasas y a mejorar la renovación del aire. El diseño, los componentes y el alcance se determinan tras revisar las condiciones de cada espacio.",
+      "Un sistema de ventilación o extracción debe responder al espacio y al proceso donde se instalará. Mecatronix Perú evalúa las condiciones del local o planta y el tipo de aire que se necesita renovar o evacuar, como calor, humo, polvo o vapores de cocina.\n\nSegún el proyecto, el servicio puede comprender el diseño de la solución, la instalación de extractores y ductos, y su integración con el área de trabajo. El recorrido, los componentes y el alcance se definen después de revisar el lugar. Se atienden solicitudes en Lima y provincias.",
     features: [
       {
         icon: "fan",
-        title: "Balance térmico y caudales",
-        description: "Dimensionamiento y distribución de ductos para renovación de aire adecuada por ambiente.",
+        title: "Evaluación del espacio",
+        description: "La solución toma en cuenta el ambiente, el proceso y las condiciones de instalación.",
       },
       {
         icon: "layers",
-        title: "Integración en obra",
-        description: "Coordinación con estructuras, eléctricos y producción para minimizar interferencias.",
+        title: "Diseño e instalación",
+        description: "El sistema puede incluir extractores y ductos definidos según el alcance del proyecto.",
       },
       {
         icon: "activity",
-        title: "Pruebas de funcionamiento",
-        description: "Medición de presiones y caudales para verificar el diseño frente a condiciones reales.",
+        title: "Uso del sistema",
+        description: "La configuración se orienta a las necesidades de renovación o extracción de aire identificadas.",
       },
     ],
   },
@@ -273,24 +273,24 @@ const services: Service[] = [
     title: "Capacitación técnica industrial",
     slug: "capacitacion-tecnica-industrial",
     description:
-      "Capacitación técnica para la operación y el cuidado de equipos industriales. Programas para personal en Lima y provincias, según cada necesidad.",
+      "Capacitación técnica para la operación y el cuidado de máquinas industriales, de acuerdo con el equipo y el personal.",
     longDescription:
-      "Empoderamos a su personal mediante programas de formación técnica enfocados en la correcta operación y el mantenimiento autónomo de la maquinaria. Un equipo capacitado es la mejor estrategia preventiva: maximiza el rendimiento productivo, reduce errores humanos y previene averías costosas causadas por un manejo inadecuado de la tecnología industrial.",
+      "La capacitación técnica puede ayudar al personal a conocer mejor los equipos que utiliza y las tareas básicas de cuidado relacionadas con su operación. Mecatronix Perú coordina el contenido de acuerdo con el tipo de máquina, las necesidades de la empresa y el nivel de los participantes.\n\nLos temas pueden incluir operación, identificación de señales de alerta y prácticas de mantenimiento autónomo, según el equipo y el alcance acordado. Antes de programar la actividad se definen los contenidos, la modalidad y el tiempo requerido. Atención en Lima y provincias.",
     features: [
       {
         icon: "bookOpen",
         title: "Contenidos a medida",
-        description: "Módulos según su línea de proceso, equipos críticos y nivel del personal.",
+        description: "Los temas se seleccionan según los equipos y las necesidades de aprendizaje del grupo.",
       },
       {
         icon: "users",
         title: "Enfoque práctico",
-        description: "Ejercicios en planta o taller para reforzar procedimientos seguros de operación.",
+        description: "La actividad puede incluir ejercicios prácticos cuando el entorno y el equipo lo permiten.",
       },
       {
         icon: "clipboardList",
-        title: "Material de apoyo",
-        description: "Guías, checklists y referencias para sostener el aprendizaje después del curso.",
+        title: "Contenido acordado",
+        description: "Los objetivos y el material de la capacitación se coordinan antes de la sesión.",
       },
     ],
   },
@@ -303,24 +303,24 @@ const services: Service[] = [
     title: "Diseño e Implementación de proyectos de automatización",
     slug: "diseno-e-implementacion-de-proyectos-de-automatizacion",
     description:
-      "Automatización industrial con PLC, HMI, sensores y neumática. Diseño e integración de control para procesos en Lima y provincias.",
+      "Diseño e implementación de automatización industrial con PLC, HMI, sensores y otros elementos de control.",
     longDescription:
-      "Transformamos su industria integrando tecnologías avanzadas (PLC, HMI, sensores, neumática) que optimizan y controlan sus procesos de manera automática. Estudiamos su línea de producción para diseñar soluciones a la medida que reducen la intervención manual, minimizan los tiempos muertos, disminuyen el margen de error y aumentan significativamente la rentabilidad y estandarización de su producto.",
+      "Un proyecto de automatización comienza por entender el proceso, las máquinas involucradas y las tareas que se busca controlar o integrar. Mecatronix Perú desarrolla soluciones que pueden incluir PLC, HMI, sensores, variadores, neumática y otros elementos de control, de acuerdo con los requerimientos del cliente.\n\nEl alcance puede comprender la revisión de señales, la lógica de control, la integración con equipos existentes y las pruebas de funcionamiento acordadas. La arquitectura y los componentes se definen después de evaluar el proceso y las condiciones de instalación. Atención en Lima y provincias; otros destinos se revisan según el proyecto.",
     features: [
       {
         icon: "cpu",
         title: "Arquitectura de control",
-        description: "Selección de PLC, HMI, variadores y redes industriales según requisitos del proceso.",
+        description: "La selección de controles y componentes depende del proceso y los equipos que se integrarán.",
       },
       {
         icon: "workflow",
         title: "Integración de señales",
-        description: "Cableado, instrumentación y lógica para sincronizar etapas y alarmas con su operación.",
+        description: "Se define cómo interactuarán las señales y etapas de la máquina dentro del alcance del proyecto.",
       },
       {
         icon: "settings",
         title: "Puesta a punto",
-        description: "Depuración de secuencias, tiempos y seguridades hasta validar producción estable.",
+        description: "Las pruebas y ajustes de la lógica se realizan según los objetivos definidos para la puesta en marcha.",
       },
     ],
   },
@@ -335,24 +335,24 @@ const services: Service[] = [
     title: "Modificaciones en línea de producción",
     slug: "modificaciones-en-linea-de-produccion",
     description:
-      "Modificación de líneas de producción e integración de máquinas para empresas industriales en Lima y provincias, según evaluación.",
+      "Modificación e integración de líneas de producción para adaptar equipos y procesos a nuevos requerimientos.",
     longDescription:
-      "Adaptamos sus instalaciones actuales a las nuevas y crecientes demandas del mercado. Ya sea para integrar nuevas máquinas, optimizar el flujo de trabajo o escalar el volumen de producción, realizamos modificaciones estructurales, mecánicas y eléctricas en su línea con la mínima interrupción posible, garantizando una transición fluida hacia una operación superior.",
+      "Una línea de producción puede requerir cambios cuando se incorporan máquinas, se modifica el proceso o se necesita reorganizar el flujo de trabajo. Mecatronix Perú evalúa la instalación existente y el objetivo del cliente para delimitar las modificaciones necesarias.\n\nSegún el proyecto, los trabajos pueden involucrar integración de equipos, ajustes mecánicos, eléctricos o de control y coordinación de las etapas de instalación. La secuencia de trabajo y las paradas necesarias se acuerdan con la empresa antes de intervenir. La validación posterior se define de acuerdo con los cambios realizados. Atención en Lima y provincias.",
     features: [
       {
         icon: "gitBranch",
-        title: "Reingeniería de layout",
-        description: "Propuestas de redistribución de equipos y flujos para ganar throughput o ergonomía.",
+        title: "Revisión de la línea",
+        description: "Se identifican los equipos y las etapas que necesitan integrarse o modificarse.",
       },
       {
         icon: "factory",
-        title: "Ejecución coordinada",
-        description: "Ventanas de parada acotadas y plan de rollback para reducir riesgo en producción.",
+        title: "Planificación del trabajo",
+        description: "Las actividades y las paradas requeridas se coordinan con la operación del cliente.",
       },
       {
         icon: "clipboardList",
-        title: "Validación post-cambio",
-        description: "Pruebas de ritmo, calidad y seguridad antes del cierre formal del proyecto.",
+        title: "Pruebas posteriores",
+        description: "La puesta en marcha se revisa según los cambios efectuados y el alcance contratado.",
       },
     ],
   },
@@ -362,27 +362,27 @@ const services: Service[] = [
     gallery: [
 
     ],
-    title: "Instalación de camaras de conservación y congelación",
+    title: "Instalación de cámaras de conservación y congelación",
     slug: "instalacion-de-camaras-de-conservacion-y-congelacion",
     description:
-      "Instalación de cámaras de conservación y congelación para alimentos en panaderías, pastelerías y gastronomía. Atención en Lima y provincias.",
+      "Diseño e instalación de cámaras de conservación y congelación para panaderías, pastelerías y negocios gastronómicos.",
     longDescription:
-      "Somos especialistas en el cálculo térmico, diseño e instalación de cámaras frigoríficas y túneles de congelación de alta eficiencia energética. Utilizamos paneles termoaislantes y equipos de refrigeración de última generación para asegurar temperaturas precisas y estables, garantizando la perfecta conservación de alimentos, masas, insumos o productos termosensibles.",
+      "Las cámaras de conservación y congelación permiten almacenar insumos y productos a temperaturas definidas para cada operación. Mecatronix Perú evalúa el espacio, el uso previsto, el volumen de almacenamiento y las condiciones necesarias para plantear una solución de refrigeración.\n\nSegún el proyecto, el servicio puede incluir diseño, instalación de paneles y equipos de refrigeración, y revisión del funcionamiento inicial. La configuración se define de acuerdo con la temperatura requerida, el tipo de producto y las características del local. Se atienden panaderías, pastelerías, restaurantes, hoteles y otras empresas en Lima y provincias.",
     features: [
       {
         icon: "snowflake",
         title: "Cadena de frío",
-        description: "Montaje de equipos de refrigeración, aislamiento y sellado según temperatura objetivo.",
+        description: "El aislamiento y los equipos se seleccionan según el espacio y las condiciones de conservación requeridas.",
       },
       {
         icon: "gauge",
         title: "Control de temperatura",
-        description: "Instrumentación y alarmas para mantener rangos seguros de conservación o congelación.",
+        description: "La solución considera el control de temperatura apropiado para el uso previsto de la cámara.",
       },
       {
         icon: "shield",
-        title: "Cumplimiento HACCP",
-        description: "Criterios orientados a buenas prácticas en instalaciones alimentarias cuando aplica.",
+        title: "Solución según el producto",
+        description: "El diseño toma en cuenta qué productos se almacenarán y las condiciones del establecimiento.",
       },
     ],
   },
@@ -395,24 +395,24 @@ const services: Service[] = [
     title: "Diseño e instalación de tableros eléctricos industriales",
     slug: "diseno-e-instalacion-de-tableros-electricos-industriales",
     description:
-      "Diseño e instalación de tableros eléctricos industriales de fuerza, control y automatización en Lima y provincias.",
+      "Diseño e instalación de tableros eléctricos industriales para sistemas de fuerza, control y automatización.",
     longDescription:
-      "Fabricamos e instalamos tableros eléctricos de fuerza, control y automatización adaptados a la carga y exigencia energética de su planta. Nuestros diseños priorizan la seguridad industrial, la facilidad de mantenimiento y la protección de sus motores y equipos contra sobrecargas, caídas de tensión o cortocircuitos, asegurando un suministro eléctrico continuo y confiable.",
+      "El diseño de un tablero eléctrico parte de conocer las cargas, los equipos que controlará y las condiciones de instalación. Mecatronix Perú puede desarrollar tableros de fuerza, control o automatización para máquinas y procesos industriales, de acuerdo con los requerimientos del proyecto.\n\nLa solución puede considerar selección de protecciones, organización de circuitos, identificación de componentes y conexión con los equipos correspondientes. Antes de cotizar se revisa la información técnica disponible y el alcance necesario. La instalación y las pruebas se coordinan según el lugar y el sistema a intervenir. Atención en Lima y provincias.",
     features: [
       {
         icon: "layers",
         title: "Ingeniería de tablero",
-        description: "Diagramas unifilares, selección de protecciones y seccionado según carga y norma.",
+        description: "El esquema y los componentes se definen considerando las cargas y funciones requeridas.",
       },
       {
         icon: "bolt",
         title: "Montaje y conexionado",
-        description: "Cableado ordenado, identificación de circuitos y pruebas de aislamiento.",
+        description: "El montaje y el conexionado se realizan según el diseño y las condiciones de instalación.",
       },
       {
         icon: "clipboardList",
-        title: "Entrega y señalética",
-        description: "Planos as built, etiquetado de breakers y instructivos para mantenimiento eléctrico.",
+        title: "Revisión del sistema",
+        description: "Las comprobaciones se definen de acuerdo con el tablero y el alcance del servicio.",
       },
     ],
   },
@@ -425,24 +425,24 @@ const services: Service[] = [
     title: "Mantenimiento de bombas de agua",
     slug: "mantenimiento-de-bombas-de-agua",
     description:
-      "Mantenimiento y reparación de bombas de agua para procesos industriales en Lima y provincias. Diagnóstico según cada sistema.",
+      "Diagnóstico, mantenimiento y reparación de bombas de agua y sistemas asociados para empresas e industrias.",
     longDescription:
-      "Realizamos el diagnóstico, reparación y mantenimiento especializado de bombas de agua (centrífugas, periféricas, sumergibles) y sistemas hidroneumáticos. Inspeccionamos sellos mecánicos, rodamientos, alineación de ejes y consumo eléctrico para prevenir fugas, pérdida de presión o fallas inesperadas, garantizando el suministro continuo de fluidos vitales para su planta.",
+      "Una bomba con pérdida de caudal, presión irregular, ruido, vibración o fugas requiere revisar tanto el equipo como las condiciones del sistema donde trabaja. Mecatronix Perú evalúa bombas de agua y sistemas asociados para determinar el origen probable del problema y el tipo de mantenimiento requerido.\n\nDe acuerdo con el modelo y la falla, la intervención puede incluir revisión de componentes mecánicos y eléctricos, reparación o cambio de piezas y pruebas de funcionamiento. El alcance se define después de la evaluación; los repuestos y costos se cotizan por separado cuando corresponda. Atención en Lima y provincias.",
     features: [
       {
         icon: "activity",
         title: "Diagnóstico hidráulico",
-        description: "Revisión de presiones, caudales, cavitación y vibración en rodamientos y acoplamientos.",
+        description: "Se revisan los síntomas reportados y las condiciones de funcionamiento del equipo y del sistema.",
       },
       {
         icon: "wrench",
-        title: "Sello y rodamientos",
-        description: "Cambio de sellos mecánicos, empaquetaduras y componentes de desgaste con alineación.",
+        title: "Reparación de componentes",
+        description: "La reparación o sustitución de piezas depende del diagnóstico y la disponibilidad del repuesto.",
       },
       {
         icon: "gauge",
         title: "Puesta a punto",
-        description: "Ajuste de variadores, válvulas y protecciones para operación estable y eficiente.",
+        description: "Al finalizar, se pueden realizar comprobaciones de funcionamiento según el trabajo ejecutado.",
       },
     ],
   },
@@ -455,24 +455,24 @@ const services: Service[] = [
     title: "Mantenimiento de grupos electrógenos",
     slug: "mantenimiento-de-grupos-electrogenos",
     description:
-      "Mantenimiento de grupos electrógenos para empresas en Lima y provincias. Revisión de componentes y pruebas según el equipo.",
+      "Mantenimiento y revisión de grupos electrógenos para empresas que requieren evaluar sus equipos de respaldo eléctrico.",
     longDescription:
-      "El respaldo energético es crítico para la continuidad de la industria. Nuestro servicio incluye la revisión integral de motores diésel/gas, cambio de filtros, análisis de fluidos, revisión de alternadores y pruebas del panel de transferencia automática (tablero de transferencia). Con este mantenimiento preventivo, garantizamos que sus generadores arranquen de inmediato, protegiendo su producción ante cualquier apagón.",
+      "Los grupos electrógenos proporcionan energía de respaldo cuando se interrumpe el suministro eléctrico. Mecatronix Perú evalúa solicitudes de mantenimiento o reparación considerando el modelo, las horas de uso, el historial disponible y las condiciones de operación.\n\nSegún el equipo y el alcance acordado, la revisión puede abarcar motor, alternador, baterías, filtros, fluidos, sistema de control y tablero de transferencia cuando corresponda. Las pruebas de arranque o funcionamiento bajo carga se coordinan de acuerdo con las condiciones del lugar y el proyecto. La intervención recomendada, los repuestos y la cotización se definen tras la evaluación. Atención en Lima y provincias.",
     features: [
       {
         icon: "zap",
-        title: "Pruebas de carga",
-        description: "Ensayos bajo demanda para verificar regulación de voltaje/frecuencia y respuesta del motor.",
+        title: "Pruebas según el equipo",
+        description: "Las comprobaciones de arranque y carga se coordinan según el equipo y las condiciones del sitio.",
       },
       {
         icon: "clipboardList",
         title: "Mantenimiento programado",
-        description: "Filtros, lubricantes, refrigerante y baterías según horas y fabricante.",
+        description: "Las tareas de mantenimiento se determinan considerando el uso, el modelo y las recomendaciones disponibles.",
       },
       {
         icon: "shield",
-        title: "Arranque confiable",
-        description: "Chequeo de transferencias automáticas y señales de arranque para emergencias.",
+        title: "Sistema de transferencia",
+        description: "El tablero de transferencia y sus señales se revisan cuando forman parte del servicio solicitado.",
       },
     ],
   },
