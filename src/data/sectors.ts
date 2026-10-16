@@ -5,6 +5,8 @@ export type Sector = {
   metaTitle: string
   metaDescription: string
   intro: string
+  gallery?: string[]
+  galleryAltTexts?: string[]
   sections: { heading: string; paragraphs: string[] }[]
   relatedServices: string[]
 }
@@ -57,6 +59,14 @@ const sectors: Sector[] = [
     metaTitle: "Mantenimiento de Equipos de Panadería | Mecatronix Perú",
     metaDescription: "Mantenimiento y reparación de máquinas para panaderías en Lima y provincias. Atención mecánica, electrónica y de automatización según cada equipo.",
     intro: "Mecatronix Perú atiende solicitudes de mantenimiento y reparación de equipos utilizados en panaderías. Es uno de los rubros principales de sus clientes, junto con pastelería, gastronomía y hotelería.",
+    gallery: [
+      "https://i.ibb.co/TxsCdkYn/mantenimiento-panaderia.jpg",
+      "https://i.ibb.co/HDfMQFWN/mantenimiento-panaderia-2.jpg",
+    ],
+    galleryAltTexts: [
+      "Trabajo de mantenimiento preventivo en equipos de panadería realizado por Mecatronix Perú",
+      "Segundo trabajo de mantenimiento de equipos de panadería realizado por Mecatronix Perú",
+    ],
     sections: [
       {
         heading: "Atención técnica para panaderías",
@@ -129,6 +139,8 @@ const sectors: Sector[] = [
     metaTitle: "Mantenimiento para Gastronomía y Hotelería | Mecatronix Perú",
     metaDescription: "Mantenimiento y reparación de equipos de gastronomía y hotelería en Lima y provincias. Reparación de lavavajillas y hornos Rational, previa evaluación.",
     intro: "Gastronomía y hotelería están entre los principales rubros atendidos por Mecatronix Perú. El servicio se orienta al mantenimiento y reparación de las máquinas que cada negocio utiliza, previa evaluación de su requerimiento.",
+    gallery: ["https://i.ibb.co/cSKLq40V/mantenimiento-gastronomia.jpg"],
+    galleryAltTexts: ["Mantenimiento de equipos para gastronomía y hotelería realizado por Mecatronix Perú"],
     sections: [
       {
         heading: "Soporte para negocios de gastronomía y hotelería",

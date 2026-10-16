@@ -167,6 +167,7 @@ export default function ServiceDetailPage() {
               <GalleryCarousel
                 images={service.gallery.length ? service.gallery : [service.image]}
                 title={service.title}
+                altTexts={service.galleryAltTexts}
               />
             </div>
           </div>

@@ -14,6 +14,7 @@ export type Service = {
   imageHeight?: number
   title: string
   gallery: string[]
+  galleryAltTexts?: string[]
   slug: string
   description: string
   longDescription: string
@@ -28,6 +29,9 @@ const services: Service[] = [
     imageWidth: 1600,
     imageHeight: 1200,
     gallery: [
+      "https://i.ibb.co/TxsCdkYn/mantenimiento-panaderia.jpg",
+      "https://i.ibb.co/HDfMQFWN/mantenimiento-panaderia-2.jpg",
+      "https://i.ibb.co/cSKLq40V/mantenimiento-gastronomia.jpg",
       "https://i.ibb.co/mCVTx2qM/mantenimientopreventivo.jpg",
       "https://i.ibb.co/qMVWNTB0/preventivo7.jpg",
       "https://i.ibb.co/nqTfNv3X/preventivo6.jpg",
@@ -37,11 +41,17 @@ const services: Service[] = [
       "https://i.ibb.co/rfmPcrxF/preventivo2.jpg",
       "https://i.ibb.co/TBXDJkCg/preventivo1.jpg",
     ],
+    galleryAltTexts: [
+      "Mantenimiento preventivo de equipos de panadería",
+      "Segundo trabajo de mantenimiento de equipos de panadería",
+      "Mantenimiento de equipos de gastronomía, incluidos hornos Rational",
+      "Mantenimiento preventivo de maquinaria industrial",
+    ],
     title: "Mantenimiento Preventivo",
     slug: "mantenimiento-preventivo",
     description: "Mantenimiento preventivo de equipos de panadería, pastelería, gastronomía y hotelería, además de otras industrias. Lima y provincias.",
     longDescription:
-      "El mantenimiento preventivo permite revisar una máquina antes de que una falla interrumpa la producción. Mecatronix Perú atiende solicitudes de panaderías, pastelerías, restaurantes, hoteles y empresas de otros sectores industriales en Lima y provincias.\n\nLa revisión se define según el tipo de equipo, su uso y las condiciones del lugar. Puede incluir inspección de componentes, limpieza técnica, lubricación, ajustes y evaluación de piezas con desgaste. Con esos hallazgos se determina qué tareas conviene realizar y si se requiere programar revisiones posteriores. En gastronomía se puede solicitar mantenimiento de hornos Rational; el alcance se confirma según el modelo y su condición.",
+      "El mantenimiento preventivo permite revisar una máquina antes de que una falla interrumpa la producción. Mecatronix Perú atiende solicitudes de panaderías, pastelerías, restaurantes, hoteles y empresas de otros sectores industriales en Lima y provincias.\n\nLa revisión se define según el tipo de equipo, su uso y las condiciones del lugar. Puede incluir inspección de componentes, limpieza técnica, lubricación, ajustes y evaluación de piezas con desgaste. Con esos hallazgos se determina qué tareas conviene realizar y si se requiere programar revisiones posteriores. En gastronomía se realiza mantenimiento y reparación de hornos Rational; el alcance se confirma según el modelo, la falla y su condición.",
     features: [
       {
         icon: "calendarClock",
